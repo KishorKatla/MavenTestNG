@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="27378" started-at="2017-06-20T10:33:38Z" finished-at="2017-06-20T10:34:05Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="27378" started-at="2017-06-20T10:33:38Z" finished-at="2017-06-20T10:34:05Z">
+      <class name="com.learn.automation.maven.noddleLoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.learn.automation.maven.noddleLoginTest@2c6a3f77]" name="setUp" is-config="true" duration-ms="4609" started-at="2017-06-20T11:33:38Z" finished-at="2017-06-20T11:33:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTest()[pri:0, instance:com.learn.automation.maven.noddleLoginTest@2c6a3f77]" name="loginPageTest" duration-ms="21298" started-at="2017-06-20T11:33:42Z" finished-at="2017-06-20T11:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.learn.automation.maven.noddleLoginTest@2c6a3f77]" name="testDown" is-config="true" duration-ms="1452" started-at="2017-06-20T11:34:04Z" finished-at="2017-06-20T11:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- com.learn.automation.maven.noddleLoginTest -->
+      <class name="com.learn.automation.maven.mvnTest">
+        <test-method status="PASS" signature="checkTest()[pri:0, instance:com.learn.automation.maven.mvnTest@246ae04d]" name="checkTest" duration-ms="0" started-at="2017-06-20T11:33:42Z" finished-at="2017-06-20T11:33:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTest -->
+      </class> <!-- com.learn.automation.maven.mvnTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
